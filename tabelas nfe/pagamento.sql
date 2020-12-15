@@ -1,10 +1,10 @@
-﻿CREATE TABLE nfe_pagamento(
+﻿CREATE TABLE nfe_pagamento_tipos(
 	id integer primary key auto_increment,
 	codigo varchar(5),
 	descricao varchar(35)
 );
 
-INSERT INTO nfe_pagamento (codigo,descricao) VALUES 
+INSERT INTO nfe_pagamento_tipo (codigo,descricao) VALUES 
 ('01','Dinheiro')
 ,('02','Cheque')
 ,('03','Cartão de Crédito')
