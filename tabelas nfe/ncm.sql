@@ -1,7 +1,7 @@
-﻿CREATE TABLE nfe_medida(
+﻿CREATE TABLE nfe_ncm(
 	id integer primary key auto_increment,
-	codigo varchar(5),
-	descricao varchar(25)
+	codigo varchar(8),
+	descricao text
 );
 
 INSERT INTO nfe_ncm (id,codigo,descricao) VALUES 
