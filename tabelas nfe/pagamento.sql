@@ -4,7 +4,7 @@
 	descricao varchar(35)
 );
 
-INSERT INTO nfe_pagamento_tipo (codigo,descricao) VALUES 
+INSERT INTO nfe_pagamento_tipos (codigo,descricao) VALUES 
 ('01','Dinheiro')
 ,('02','Cheque')
 ,('03','Cartão de Crédito')
